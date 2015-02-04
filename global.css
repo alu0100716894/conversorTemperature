@@ -33,15 +33,19 @@ footer        {
                 height: 40px;
                 padding:5px 0px;
                 clear: both;
-                
+
               }
 
 h2            {
-                              font-weight: small;
+                              font-weight: normal;
+                              font-size: 100%;
                               font-family: "Brush Script MT", cursive;
                               background: #3C5681;
                               padding: 5px 15px;
                               color: white;
                               display:inline-block;
                               border-radius: 10px 10px 10px 10px;
+              }
+iframe        {
+                border-radius: 10px 10px 10px 10px;
               }
