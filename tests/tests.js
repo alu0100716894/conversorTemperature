@@ -13,10 +13,10 @@ suite('temperature', function() {
     assert.deepEqual(converted.innerHTML, "113.0 Farenheit");
   });
 
-  test('5X = error' function() {
+  test('5X = error', function() {
     original.value = "5X";
     calculate();
     assert.match(converted.innerHTML, /ERROR/);
   });
-  
+
 });
