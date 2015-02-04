@@ -1,7 +1,7 @@
 "use strict"; //modo estricto para los navegadores que lo permitan
 function calculate(){
   var result;
-  var original = document.getElementById("origin");
+  var original = document.getElementById("original");
   var temp = original.value;
   var regexp = /[-+]?\d+(?:\.\d*)?)\s*([fFcC])/;
 
