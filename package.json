@@ -1,0 +1,21 @@
+{
+  "name": "TemperatureConversor",
+  "version": "0.1.0",
+  "description": "An simple temperature conversor in JavaScript",
+  "author": "Manuel Alejandro Rodríguez Santana <alu0100716894@ull.edu.es>",
+  "main": "temperature.js",
+  "scripts": {
+    "test": "tets/index.html"
+  },
+  "repository": "https://github.com/alu0100716894/conversorTemperature",
+  "keywords": [
+    "temperature",
+    "conversor"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "1.10.0",
+    "mocha": "*"
+  }
+
+}
