@@ -6,7 +6,7 @@ var gulp = require('gulp'),
   uglify = require('gulp-uglify');
 
 /*
-* Configuración de la tarea 'demo'
+* Configuración de la tarea 'minidy'
 */
 gulp.task('minify', function () {
   gulp.src('temperature.js')
