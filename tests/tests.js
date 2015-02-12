@@ -25,7 +25,7 @@ suite('temperature', function() {
   test('273.1K = 0C', function() {
     original.value = "5X";
     calculate();
-    assert.deepEqual(converted.innerHTML, "0.0 Celsius");
+    assert.deepEqual(converted.innerHTML, "-0.0 Celsius");
     assert.deepEqual(converted2.innerHTML, "31.9 Farenheit");
   });
 
