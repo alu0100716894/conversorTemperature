@@ -4,7 +4,7 @@ function calculate(){
   var original = document.getElementById("original");
   var temp = original.value;
   //var regexp = /([-+]?\d+(?:\.\d*)?)\s*([fFcC])/;
-  var regexp = /^\s*([-+]?\d+(?:\.\d*)?(?:[eE][-+]?\d+)?)\s*([cCfF])$/
+  var regexp = /^\s*([-+]?\d+(?:\.\d*)?º?(?:[eE][-+]?\d+)?)\s*([cCfF])$/
 
   var m = temp.match(regexp);
 
