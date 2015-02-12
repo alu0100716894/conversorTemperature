@@ -1,5 +1,6 @@
 th,td         { vertical-align: top; text-align: right; font-size: large;}
 #converted    {color: red; font-weight: bold; font-size: large;          }
+#converted2    {color: red; font-weight: bold; font-size: large;          }
 input         {
                 text-align: right;  /*lo que metas a la derecha*/
                 border: none;
