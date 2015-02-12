@@ -32,7 +32,8 @@ function calculate(){
       result2 = result2.toFixed(1) + " Farenheit"
     }
     converted.innerHTML = result;
-    converted2.innerHTML = result2;
+    document.getElementById("converted2").innerHTML = result2;
+    //converted2.innerHTML = result2;
   }
   else {
     converted.innerHTML = "ERROR! Try something like '-4.2C' instead";
