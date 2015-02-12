@@ -17,6 +17,7 @@ suite('temperature', function() {
     original.value = "5X";
     calculate();
     assert.match(converted.innerHTML, /ERROR/);
+    assert.match(converted2.innerHTML, /ERROR/);
   });
 
 });
