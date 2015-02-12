@@ -19,10 +19,4 @@ suite('temperature', function() {
     assert.match(converted.innerHTML, /ERROR/);
   });
 
-  test('0C = 273.1 Kelvin', function() {
-    original.value = "0C";
-    calculate();
-    assert.deepEqual(converted2.innerHTML, "273.1 Kelvin");
-  });
-
 });
