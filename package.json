@@ -24,6 +24,7 @@
   },
   "homepage": "https://github.com/alu0100716894/conversorTemperature",
   "devDependencies": {
+    "del": "^1.1.1",
     "gulp": "^3.8.11",
     "gulp-concat": "^2.4.3",
     "gulp-uglify": "^1.1.0",

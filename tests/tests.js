@@ -1,15 +1,12 @@
-require("blanket");
 var assert = chai.assert;
 
 suite('temperature', function() {
-  setup(function(){
     if (typeof __html__ !== 'undefined') {
       document.body.innerHTML = __html__['tests/test.html'];
       original = document.getElementById('original');
       converted = document.getElementById('converted');
       converted2 = document.getElementById('converted2');
     }
-  });
 
   test('32F = 0C', function() {
     original.value = "32F";
