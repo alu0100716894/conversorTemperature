@@ -7,7 +7,7 @@
     "test": "tests"
   },
   "scripts": {
-    "test": "firefox tests/index.html"
+    "test": "./node_modules/karma/bin/karma start --browsers Firefox --single-run"
   },
   "repository": {
     "type": "git",
