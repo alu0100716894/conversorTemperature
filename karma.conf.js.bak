@@ -1,5 +1,5 @@
 // Karma configuration
-// Generated on Mon Feb 23 2015 17:30:01 GMT+0000 (WET)
+// Generated on Mon Feb 23 2015 11:50:13 GMT+0000 (WET)
 
 module.exports = function(config) {
   config.set({
@@ -10,7 +10,7 @@ module.exports = function(config) {
 
     // frameworks to use
     // available frameworks: https://npmjs.org/browse/keyword/karma-adapter
-    frameworks: ['mocha'],
+    frameworks: ['mocha', 'chai'],
 
     client: {
       mocha: {
@@ -19,25 +19,25 @@ module.exports = function(config) {
     },
 
 
-
     // list of files / patterns to load in the browser
     files: [
-      './*.js',
-      './tests/*.js',
-      './tests/testsk.html',
+      'tests/index.html',
+      '*.js',
+      'tests/*.js'
     ],
 
 
     // list of files to exclude
     exclude: [
-      './gulpfile.js'
+      'gulpfile.js',
+      'tests/static_server.js'
     ],
 
 
     // preprocess matching files before serving them to the browser
     // available preprocessors: https://npmjs.org/browse/keyword/karma-preprocessor
-    preprocessors: {
-      './tests/testsk.html': ['html2js']
+    preprocessors:{
+      './tests/index.html': ['html2js']
     },
 
 
