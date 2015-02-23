@@ -7,9 +7,6 @@ suite('temperature', function() {
               original = document.getElementById('original');
               converted = document.getElementById('converted');
           }
-
-
-suite('temperature', function() {
   test('32F = 0C', function() {
     original.value = "32F";
     calculate();
@@ -37,7 +34,5 @@ suite('temperature', function() {
     assert.deepEqual(converted.innerHTML, "-0.0 Celsius");
     assert.deepEqual(converted2.innerHTML, "31.9 Farenheit");
   });
-
-});
 
 });
