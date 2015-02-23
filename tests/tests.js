@@ -1,5 +1,3 @@
-require("blanket");
-
 var assert = chai.assert;
 
 suite('temperature', function() {
