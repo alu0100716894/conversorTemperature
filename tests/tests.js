@@ -2,7 +2,7 @@ var assert = chai.assert;
 
 suite('temperature', function() {
     if (typeof __html__ !== 'undefined') {
-      document.body.innerHTML = __html__['tests/testsk.html'];
+      document.body.innerHTML = __html__["tests/testsk.html"];
       original = document.getElementById("original");
       converted = document.getElementById("converted");
       converted2 = document.getElementById("converted2");
